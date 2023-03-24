@@ -339,6 +339,7 @@ pre code {
 /*Accordian*/
 
 summary {
+  font-size: 1.5em;
   font-weight: 900;
   padding: 1rem;
   margin-bottom: 1rem;

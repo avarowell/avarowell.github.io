@@ -388,6 +388,3 @@ details[open]>summary::after {
   right: 20px;
 }
 
-details>summary::-webkit-details-marker {
-  display: none;
-}

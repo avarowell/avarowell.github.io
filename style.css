@@ -342,10 +342,13 @@ pre code {
 
 /*Accordian*/
 
+details {
+  padding:1em 0;
+}
+
 summary {
   font-size: 1.5em;
   font-weight: 900;
-  padding: 1rem;
   margin-bottom: 1rem;
   outline: none;
   cursor: pointer;
@@ -387,4 +390,3 @@ details[open]>summary::after {
   content: "";
   right: 20px;
 }
-

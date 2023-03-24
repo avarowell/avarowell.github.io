@@ -32,8 +32,8 @@ body {
   --mono-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;  ;
   font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;  /* Default colours */
 
-   --size: 1.3rem;
-   --baseline: 1rem;
+   --size: 1em;
+   --baseline: 1em;
 }
 
 body, body.light-theme {
@@ -96,7 +96,7 @@ body {
   font-size: var(--size);
   line-height: 1.5;
   margin: 0 auto;
-  padding: 7em 3em 1em 3em;
+  padding: 7em 2em 1em 2em;
   transition: all .3s ease-in;
 }
 
@@ -106,7 +106,7 @@ header {
   position: fixed;
   top:0;
   left:0;
-  padding:.5em 3em;
+  padding:.5em 2em;
   font-size: 1em;
   background-color: var(--bgt);
   width:100%;
@@ -253,10 +253,10 @@ input[type="reset"],
 input[type="button"],
 label[type="button"] {
   border: 1px solid var(--accent);
-  margin: 0 0.2em 0 0.2em;
+  margin: 0 0.2em 0.8em 0.2em;
   padding: .5em;
   border-radius: 5px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: var(--accent);
   cursor: pointer;
   display: inline-block;

@@ -150,6 +150,10 @@ header a, header a:visited {
   color: var(--text);
 }
 
+header a, header a:hover {
+  color: var(--text);
+}
+
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
   max-width: 1080px;

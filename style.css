@@ -1,13 +1,3 @@
-/*@font-face {
-  font-family: hyperlegible_reg;
-  src: url(fonts/WOFF/Atkinson-Hyperlegible-Regular-102.woff);
-}
-
-@font-face {
-  font-family: hyperlegible_bold;
-  src: url(fonts/WOFF/Atkinson-Hyperlegible-Bold-102.woff);
-}*/
-
 /* Global variables. */
 body {
   /* 12 bit Rainbow */
@@ -38,18 +28,18 @@ body {
 
 body, body.light-theme {
   --bg: #e2e2e2;
-  --bgt: #e2e2e2e2;
+  --bg-transparent: #e2e2e2dd;
   --text: #121212;
-  --textt: #12121212;
+  --text-transparent: #12121212;
   --accent: var(--sea);
   --hover: var(--indigo);
 }
 
 body.dark-theme {
   --bg: #121212;
-  --bgt: #121212e2;
+  --bg-transparent: #121212cc;
   --text: #e2e2e2;
-  --textt: #e2e2e212;
+  --text-transparent: #e2e2e212;
   --accent: var(--paleRed);
   --hover: var(--orange);
 }
@@ -57,18 +47,18 @@ body.dark-theme {
 @media (prefers-color-scheme: dark) {
   body {
   --bg: #121212;
-  --bgt: #121212e2;
+  --bg-transparent: #121212cc;
   --text: #e2e2e2;
-  --textt: #e2e2e212;
+  --text-transparent: #e2e2e212;
   --accent: var(--paleRed);
   --hover: var(--orange);
   }
 
   body.light-theme {
   --bg: #e2e2e2;
-  --bgt: #e2e2e2e2;
+  --bg-transparent: #e2e2e2dd;
   --text: #121212;
-  --textt: #12121212;
+  --text-transparent: #12121212;
   --accent: var(--blue);
   --hover: var(--indigo);
   }
@@ -108,9 +98,9 @@ header {
   left:0;
   padding:1em 5%;
   font-size: 1em;
-  background-color: var(--bgt);
+  background-color: var(--bg-transparent);
   width:100%;
-  border-bottom: 1px solid var(--textt);
+  border-bottom: 1px solid var(--text-transparent);
   z-index: 999;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);

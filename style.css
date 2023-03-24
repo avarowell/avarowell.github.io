@@ -86,7 +86,7 @@ body.dark-theme {
 html {
   /* Set the font globally */
   font-family: var(--sans-font);
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 
 body {

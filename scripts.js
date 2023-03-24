@@ -9,6 +9,11 @@ btn.addEventListener("click", function () {
   }
 });
 
+const details = document.querySelector('details');
+details.addEventListener("click", function (){
+  details.add("open");
+});
+
 
 /*window.onscroll = function () { myFunction() };
 
